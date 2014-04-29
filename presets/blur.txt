@@ -1,0 +1,17 @@
+[
+    {
+        "angle": 1,
+        "times": 36,
+        "hDelta": 10,
+        "anchorX": 50,
+        "anchorY": 300,
+        "opacity": 0.01
+    }
+    ,{
+        "angle": 60,
+        "times": 5,
+        "hDelta": 10,
+        "anchorX": 300,
+        "anchorY": 200
+    }
+]

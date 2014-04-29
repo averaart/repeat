@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.custom.css">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="controls">
+
+            <div class="generalOptions">
+            <div class="sliderWrapper"><div class="label">hue</div><div id="h"></div></div>
+            <div class="sliderWrapper"><div class="label">hue delta</div><div id="hDelta" class="slider"></div></div>
+            <div class="sliderWrapper"><div class="label">saturation</div><div id="s"></div></div>
+            <div class="sliderWrapper"><div class="label">sat. delta</div><div id="sDelta"></div></div>
+            <div class="sliderWrapper"><div class="label">lightness</div><div id="l"></div></div>
+            <div class="sliderWrapper"><div class="label">light. delta</div><div id="lDelta"></div></div>
+            <div class="sliderWrapper"><div class="label">opacity</div><div id="opacity"></div></div>
+            <div class="sliderWrapper"><div class="label">opac. delta</div><div id="oDelta"></div></div>
+
+            <input type="text" id="baseShape" value="M 50 0 L 100 200 L 50 400 L 0 200 Z" />
+            <select id="shapes">
+
+            </select>
+
+            <button type="submit" id="add">Add level</button>
+            </div>
+        </div>
+
+        <div id="wrapper"></div>
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-ui-1.10.4.custom.min.js"></script>
+        <!-- <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
+        <script>window.d3 || document.write('<script src="js/vendor/d3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script> -->
+    </body>
+</html>
